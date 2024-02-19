@@ -1,1 +1,13 @@
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    #wrapper {
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: .5em 0;
+    }
+}
